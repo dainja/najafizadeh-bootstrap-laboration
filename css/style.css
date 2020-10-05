@@ -1,0 +1,61 @@
+/* Default font-size for project */
+html {
+  font-size: 14px;
+}
+
+/* Change font-size when hitting 768px */
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* Container max-width changed from default 1140px to 960px */
+.container {
+  max-width: 960px;
+}
+
+/* Min width on card + card-deck for better style */
+.card-deck .card {
+  min-width: 220px;
+}
+
+/* Borders for better styling */
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Box shadow class */
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+/* Navigation heading */
+#nav-heading {
+  font-size: 1.25rem;
+}
+
+/* Navigation bar */
+.navbar {
+  justify-content: unset; /* Set to unset because default bootstrap has justify-content: space-between */
+}
+
+/* Pricing heading */
+.pricing-header h1 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+/* Footer image */
+footer img {
+  height: 24px;
+  width: 24px;
+}
